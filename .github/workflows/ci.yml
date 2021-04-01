@@ -42,3 +42,24 @@ jobs:
 
       - name: Run tests 🧪
         run: npm run test
+
+  deploy:
+    name: Deploy
+    needs: ci
+    runs-on: ubuntu-latest
+    steps:
+    - name: executing remote ssh commands using password
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        password: ${{ secrets.PASSWORD }}
+        port: ${{ secrets.PORT }}
+        script: |
+          cd /var/www/qa.guru
+          git reset --hard origin/main
+          git pull
+          npm install
+          npm run build
+          kill -9 `pidof node`
+          npm run start
