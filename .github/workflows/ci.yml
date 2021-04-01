@@ -60,5 +60,5 @@ jobs:
           git pull
           npm install
           npm run build
-          kill -9 `pidof node`
+          sudo kill -9 `pidof node`
           npm run start &
