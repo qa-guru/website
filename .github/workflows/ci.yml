@@ -42,7 +42,6 @@ jobs:
 
       - name: Run tests 🧪
         run: npm run test
-
   deploy:
     name: Deploy
     needs: ci
@@ -62,4 +61,4 @@ jobs:
           npm install
           npm run build
           kill -9 `pidof node`
-          npm run start
+          npm run start &
