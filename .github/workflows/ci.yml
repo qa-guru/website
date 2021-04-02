@@ -54,6 +54,7 @@ jobs:
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
+        node-version: '14.x'
         script: |
           cd /var/www/qa.guru
           git reset --hard origin/main
