@@ -55,6 +55,8 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
         script: |
+          whoami
+          ls -la /var/www/qa.guru
           cd /var/www/qa.guru
           git reset --hard origin/main
           git pull
