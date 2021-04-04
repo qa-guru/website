@@ -7,15 +7,17 @@
       <CourseOwner />
       <Experts />
     </div>
-    <Specialists class="w-full"/>
+    <Specialists class="w-full" />
     <div class="px-32" style="width: 1440px;">
       <CourseDetails />
     </div>
-      <Program />
-      <div class="px-32" style="width: 1440px;">
-      <!--
+    <Program />
+    <div class="px-32" style="width: 1440px;">
       <LearningProcess />
-      <Tariffs />
+    </div>
+      <Tariffs class="w-full" />
+    <div class="px-32" style="width: 1440px;">
+      <!--
       <Register />
       -->
     </div>
