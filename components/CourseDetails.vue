@@ -4,7 +4,7 @@
       <div class="flex flex-wrap w-full">
         <div class="flex flex-col w-1/2">
           <div class="w-3/4">
-            <h3 class="text-6xl font-bold">Код</h3>
+            <h3 class="text-3xl md:text-6xl font-bold">Код</h3>
             <h4 class="text-2xl font-bold">Разработка автотестов</h4>
             <p>
               Научитесь создавать скрипты, которые имитируют поведение человека
