@@ -8,15 +8,15 @@
       <Experts />
     </div>
     <Specialists class="w-full" />
-    <div class="px-32">
+    <div class="p-6 md:px-32">
       <CourseDetails />
     </div>
     <Program />
-    <div class="px-32">
+    <div class="p-6 md:px-32">
       <LearningProcess />
     </div>
       <Tariffs class="w-full" />
-    <div class="px-32">
+    <div class="p-6 md:px-32">
       <Register />
     </div>
   </div>

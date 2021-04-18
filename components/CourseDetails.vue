@@ -1,26 +1,26 @@
 <template>
   <div>
-    <div class="my-16">
-      <div class="flex flex-wrap w-full">
-        <div class="flex flex-col w-1/2">
-          <div class="w-3/4">
+    <div class="my-8 md:my-16 w-full">
+      <div class="flex flex-col md:flex-row md:flex-wrap w-full">
+        <div class="flex flex-col md:w-1/2">
+          <div class="md:w-3/4">
             <h3 class="text-3xl md:text-6xl font-bold">Код</h3>
-            <h4 class="text-2xl font-bold">Разработка автотестов</h4>
-            <p>
+            <h4 class="text-2xl font-bold mt-6 md:mt-0">Разработка автотестов</h4>
+            <p class="mt-6 md:mt-0">
               Научитесь создавать скрипты, которые имитируют поведение человека
               для автоматической проверки работы продукта.
             </p>
           </div>
         </div>
 
-        <div class="flex flex-col w-1/2">
-          <div class="flex space-x-12 mb-4">
+        <div class="flex flex-row md:flex-col md:w-1/2 mt-6 md:mt-0 justify-center md:justify-start">
+          <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-12 mb-4 mr-4 md:mr-0">
             <framework-card image="idea" description="Intelij IDEA" />
             <framework-card image="java" description="Java" />
             <framework-card image="gradle" description="Gradle" />
             <framework-card image="junit5" description="JUnit 5" />
           </div>
-          <div class="flex space-x-12">
+          <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-12">
             <framework-card image="rest-assured" description="RestAssured" />
             <framework-card image="selenium" description="Selenium" />
             <framework-card image="selenide" description="Selenide" />
@@ -30,25 +30,25 @@
       </div>
     </div>
 
-    <div class="my-16">
-      <div class="flex flex-wrap w-full">
-        <div class="flex flex-col w-1/2">
-          <div class="flex space-x-12 mb-4">
+    <div class="my-8 md:my-16 w-full">
+      <div class="flex flex-col-reverse md:flex-row md:flex-wrap w-full">
+        <div class="flex flex-row md:flex-col md:w-1/2 mt-6 md:mt-0 justify-center md:justify-start">
+          <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-12 mb-4 mr-4 md:mr-0">
             <framework-card image="github" description="Github" />
             <framework-card image="jenkins" description="Jenkins" />
           </div>
-          <div class="flex space-x-12">
+          <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-12">
             <framework-card image="docker" description="Docker" />
             <framework-card image="selenoid" description="Selenoid" />
             <framework-card image="browserstack" description="Browserstack" />
           </div>
         </div>
 
-        <div class="flex flex-col w-1/2">
-          <div class="w-3/4">
-            <h3 class="text-6xl font-bold">Инфраструктура</h3>
+        <div class="flex flex-col md:w-1/2">
+          <div class="md:w-3/4">
+            <h3 class="text-3xl md:text-6xl font-bold">Инфраструктура</h3>
             <h4 class="text-2xl font-bold"></h4>
-            <p>
+            <p class="mt-6 md:mt-0">
               Выстраивание инфраструктуры Узнаете как решать инфраструктурные
               задачи для встраивания запуска автотестов в CI/CD, контейнеризации
               браузеров и мобильных устройств
@@ -58,13 +58,13 @@
       </div>
     </div>
 
-    <div class="my-16">
-      <div class="flex flex-wrap w-full">
-        <div class="flex flex-col w-1/2">
-          <div class="w-3/4">
-            <h3 class="text-6xl font-bold">Визуализация результатов</h3>
+    <div class="my-8 md:my-16 w-full">
+      <div class="flex flex-col md:flex-row md:flex-wrap w-full">
+        <div class="flex flex-col md:w-1/2">
+          <div class="md:w-3/4">
+            <h3 class="text-3xl md:text-6xl font-bold">Визуализация результатов</h3>
             <h4 class="text-2xl font-bold"></h4>
-            <p>
+            <p class="mt-6 md:mt-0">
               Визуализация результатов тестирования В этом блоке вы освоите
               навык формирования отчётности понятной вам и заказчику и сможете
               получать уведомления в мессенджеры о статусе ваших тестов
@@ -72,8 +72,8 @@
           </div>
         </div>
 
-        <div class="flex flex-col w-1/2">
-          <div class="flex space-x-12 mb-4">
+        <div class="flex flex-row md:flex-col md:w-1/2 mt-6 md:mt-0 justify-center md:justify-start">
+          <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-12 mb-4 mr-4 md:mr-0">
             <framework-card image="allure" description="Allure Report" />
             <framework-card
               image="allure-testops"
@@ -81,7 +81,7 @@
             />
             <framework-card image="jira" description="Jira" />
           </div>
-          <div class="flex space-x-12">
+          <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-12">
             <framework-card />
             <framework-card />
             <framework-card image="telegram" description="Telegram" />
@@ -91,10 +91,10 @@
       </div>
     </div>
 
-    <div class="my-16">
-      <div class="flex flex-wrap w-full">
-        <div class="flex flex-col w-1/2">
-          <div class="flex space-x-12 mb-4">
+    <div class="my-8 md:my-16 w-full">
+      <div class="flex flex-col-reverse md:flex-row md:flex-wrap w-full">
+        <div class="flex flex-row md:flex-col md:w-1/2 mt-6 md:mt-0 justify-center md:justify-start">
+          <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-12 mb-4 mr-4 md:mr-0">
             <framework-card
               image="allure-testops"
               description="Allure TestOps"
@@ -103,11 +103,11 @@
           </div>
         </div>
 
-        <div class="flex flex-col w-1/2">
+        <div class="flex flex-col md:w-1/2">
           <div class="w-full">
-            <h3 class="text-6xl font-bold">Тест-менеджмент</h3>
+            <h3 class="text-3xl md:text-6xl font-bold">Тест-менеджмент</h3>
             <h4 class="text-2xl font-bold"></h4>
-            <p>
+            <p class="mt-6 md:mt-0">
               Сможете "по—взрослому" управлять большим объёмом тестов в
               тест-менеджмент системе, поддерживающей ручные и автотесты, во
               взаимодействии с CI/CD инструментами и таск-трекерами
