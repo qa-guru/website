@@ -1,10 +1,10 @@
 <template>
-  <div class="flex flex-row mt-32 flex-wrap">
+  <div class="flex flex-col md:flex-row mt-16 md:mt-32 flex-wrap">
     <div class="flex-1">
       <img style="height: 514px;" src="~/assets/photos/vasenkov.png" />
     </div>
     <div class="flex flex-col flex-1">
-      <h4 class="text-6xl font-bold leading-none">Станислав Васенков</h4>
+      <h4 class="mt-6 md:mt-0 text-2xl md:text-6xl font-bold leading-none">Станислав Васенков</h4>
       <p class="mt-8 font-regular">
         Основатель крупнейшего комьюнити по автоматизации @qa_automation
         Основатель крупнейшего комьюнити по автоматизации @qa_automation
@@ -13,7 +13,7 @@
         Основатель крупнейшего комьюнити по автоматизации @qa_automation
         Основатель крупнейшего комьюнити по автоматизации @qa_automation
       </p>
-      <div class="flex space-x-6 mt-32 w-full flex-wrap">
+      <div class="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-6 mt-6 md:mt-32 w-full flex-wrap">
         <a
           href="https://t.me/qa_automation"
           rel="noopener"
@@ -42,7 +42,7 @@
           >
             <div class="flex justify-between">
               <strong>Отзывы</strong>
-              <img src="~/assets/icons/arrow.svg" alt />
+              <img src="~/assets/icons/arrow.svg" />
             </div>
             <a>@qa_guru_review</a>
           </div>

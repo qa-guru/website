@@ -13,6 +13,9 @@ module.exports = {
       fontFamily: {
         'roboto': ['Roboto', 'sans-serif']
       },
+      width: {
+        'fit-content': 'fit-content'
+      }
     }
   }
 }

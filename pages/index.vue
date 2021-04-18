@@ -1,6 +1,6 @@
 <template>
-  <div class="w-full flex flex-col pt-16 overflow-hidden">
-    <div class="px-32" style="width: 1440px;">
+  <div class="w-full flex flex-col md:pt-16 overflow-hidden">
+    <div class="p-6 md:px-32">
       <Header />
       <Offer />
       <BestFit />
@@ -8,18 +8,16 @@
       <Experts />
     </div>
     <Specialists class="w-full" />
-    <div class="px-32" style="width: 1440px;">
+    <div class="px-32">
       <CourseDetails />
     </div>
     <Program />
-    <div class="px-32" style="width: 1440px;">
+    <div class="px-32">
       <LearningProcess />
     </div>
       <Tariffs class="w-full" />
-    <div class="px-32" style="width: 1440px;">
-      <!--
+    <div class="px-32">
       <Register />
-      -->
     </div>
   </div>
 </template>
