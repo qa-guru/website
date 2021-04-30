@@ -15,6 +15,9 @@ module.exports = {
       },
       width: {
         'fit-content': 'fit-content'
+      },
+      spacing: {
+        'p-128': '32rem'
       }
     }
   }

@@ -2,13 +2,13 @@
   <div class="flex">
     <div class="md:flex-1 flex flex-col">
       <h3 class="font-bold text-3xl md:text-center">Запись на курс</h3>
-      <form class="mt-10 text-3xl placeholder-black flex flex-col space-y-12 md:space-y-6 md:w-2/3">
+      <form class="mt-10 text-lg md:text-3xl placeholder-black flex flex-col space-y-12 md:space-y-6 md:w-2/3">
         <input type="text" class="py-2 focus:outline-none border-b border-solid border-black" placeholder="Имя" />
         <input type="email" class="py-2 focus:outline-none border-b border-solid border-black" placeholder="Email" />
         <input type="text" class="py-2 focus:outline-none border-b border-solid border-black" placeholder="Телефон" />
         <qa-button type="primary" class="text-center font-bold w-full">Записаться</qa-button>
       </form>
-      <p class="my-6 md:w-2/3">Отправляя заявку, вы принимаете условия договора оферты и даёте согласие на обработку своих персональных данных в соответствии с политикой конфиденциальности.</p>
+      <p class="my-6 text-xs md:text-base md:w-2/3">Отправляя заявку, вы принимаете условия договора оферты и даёте согласие на обработку своих персональных данных в соответствии с политикой конфиденциальности.</p>
     </div>
     <div class="hidden md:flex-1 md:flex flex-col items-center">
       <div>

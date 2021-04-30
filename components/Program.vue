@@ -6,7 +6,7 @@
           Программа
         </div>
         <div>
-          <qa-button type="secondary">Открыть PDF</qa-button>
+          <qa-button class="hidden md:flex" type="secondary">Открыть PDF</qa-button>
         </div>
       </div>
 
@@ -54,6 +54,7 @@
           </p>
         </div>
       </div>
+      <qa-button class="w-full justify-center flex md:hidden" type="secondary">Скачать</qa-button>
     </div>
   </div>
 </template>

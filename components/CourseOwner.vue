@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col md:flex-row mt-16 md:mt-32 flex-wrap">
     <div class="flex-1">
-      <img style="height: 514px;" src="~/assets/photos/vasenkov.png" />
+      <img class="h-auto md:h-128" src="~/assets/photos/vasenkov.png" />
     </div>
     <div class="flex flex-col flex-1">
       <h4 class="mt-6 md:mt-0 text-2xl md:text-6xl font-bold leading-none">Станислав Васенков</h4>
