@@ -16,6 +16,14 @@ module.exports = {
       width: {
         'fit-content': 'fit-content'
       },
+      height: {
+        '128': '32rem',
+        '192': '48rem'
+      },
+      inset: {
+        '-16': '-4rem',
+        '-32': '-8rem'
+      },
       spacing: {
         'p-128': '32rem'
       }

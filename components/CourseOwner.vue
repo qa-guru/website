@@ -1,7 +1,8 @@
 <template>
   <div class="flex flex-col md:flex-row mt-16 md:mt-32 flex-wrap">
-    <div class="flex-1">
-      <img class="h-auto md:h-128" src="~/assets/photos/vasenkov.png" />
+    <div class="flex-1" style="background-image: url('../assets/background/wave2.svg')">
+      <!--<img class="absolute -left-16 md:h-192 z-0" src="~/assets/background/wave2.svg" />-->
+      <img class="h-auto md:h-128 z-10" src="~/assets/photos/vasenkov.png" />
     </div>
     <div class="flex flex-col flex-1">
       <h4 class="mt-6 md:mt-0 text-2xl md:text-6xl font-bold leading-none">Станислав Васенков</h4>

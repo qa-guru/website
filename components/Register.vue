@@ -1,7 +1,7 @@
 <template>
-  <div class="flex">
+  <div class="flex mt-10">
     <div class="md:flex-1 flex flex-col">
-      <h3 class="font-bold text-3xl md:text-center">Запись на курс</h3>
+      <h3 class="font-bold text-3xl">Запись на курс</h3>
       <form class="mt-10 text-lg md:text-3xl placeholder-black flex flex-col space-y-12 md:space-y-6 md:w-2/3">
         <input type="text" class="py-2 focus:outline-none border-b border-solid border-black" placeholder="Имя" />
         <input type="email" class="py-2 focus:outline-none border-b border-solid border-black" placeholder="Email" />
