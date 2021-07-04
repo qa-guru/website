@@ -1,6 +1,6 @@
 <template>
-  <div class="w-full flex flex-col md:pt-16 overflow-hidden">
-    <div class="p-6 md:px-32">
+  <div class="w-full flex flex-col overflow-hidden">
+    <div class="p-6 md:px-32 background-lines">
       <Header />
       <Offer />
       <BestFit />
@@ -59,4 +59,16 @@ export default Vue.extend({
 @apply min-h-screen flex justify-center items-center text-center mx-auto;
 }
 */
+.background-lines {
+  background-image: url("assets/lines/header_desktop.svg");
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+@media screen and (max-width: 640px) {
+  .background-lines {
+    background-image: url("assets/lines/header_mobile.svg");
+    background-repeat: no-repeat;
+    background-position: right 150px;
+  }
+}
 </style>
