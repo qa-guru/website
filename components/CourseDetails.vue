@@ -4,9 +4,10 @@
       <div class="flex flex-col md:flex-row md:flex-wrap w-full">
         <div class="flex flex-col md:w-1/2">
           <div class="md:w-3/4">
+
             <h3 class="text-3xl md:text-6xl font-bold">Код</h3>
             <h4 class="text-2xl font-bold mt-6 md:mt-0">Разработка автотестов</h4>
-            <p class="mt-6 md:mt-0">
+            <p class="text-xl mt-6 md:mt-0">
               Научитесь создавать скрипты, которые имитируют поведение человека
               для автоматической проверки работы продукта.
             </p>
@@ -48,7 +49,7 @@
           <div class="md:w-3/4">
             <h3 class="text-3xl md:text-6xl font-bold">Инфраструктура</h3>
             <h4 class="text-2xl font-bold"></h4>
-            <p class="mt-6 md:mt-0">
+            <p class="text-xl mt-6 md:mt-0">
               Выстраивание инфраструктуры Узнаете как решать инфраструктурные
               задачи для встраивания запуска автотестов в CI/CD, контейнеризации
               браузеров и мобильных устройств
@@ -57,8 +58,9 @@
         </div>
       </div>
     </div>
-
-    <div class="my-8 md:my-16 w-full">
+<!-- разбиваем отсюда -->
+    <!-- <div class="my-8 md:my-16 w-full">
+    <img class="absolute h-full w-full md:w-1/2 md:h-1/2 -z-10" src="~/assets/backgrounds/wave4.svg" />
       <div class="flex flex-col md:flex-row md:flex-wrap w-full">
         <div class="flex flex-col md:w-1/2">
           <div class="md:w-3/4">
@@ -97,8 +99,7 @@
           <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-12 mb-4 mr-4 md:mr-0">
             <framework-card
               image="allure-testops"
-              description="Allure TestOps"
-            />
+              description="Allure TestOps"           />
             <framework-card image="jira" description="Jira" />
           </div>
         </div>
@@ -114,8 +115,10 @@
             </p>
           </div>
         </div>
+
       </div>
-    </div>
+    </div> -->
+    <!-- и до сюда -->
   </div>
 </template>
 <script>
@@ -128,3 +131,4 @@ export default {
   }
 };
 </script>
+

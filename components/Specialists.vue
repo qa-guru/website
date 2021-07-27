@@ -7,7 +7,7 @@
       <div class="flex flex-col w-full space-y-6 md:space-y-0 md:flex-row md:flex-wrap mt-8 md:mt-16">
         <div class="flex flex-col md:flex-row md:flex-1">
           <div class="md:w-1/3 flex justify-center md:justify-start"><img src="~/assets/icons/expert-icon.svg" /></div>
-          <div class="md:w-2/3 flex flex-col mt-6 md:mt-0 items-center md:items-start">
+          <div class="ml-8 text-xl md:w-2/3 flex flex-col mt-6 md:mt-0 items-center md:items-start">
             <h4 class="font-bold text-xl md:text-4xl">Имя Фамилия</h4>
             <p class="text-blacky opacity-50">Лекции с ним</p>
             <h5 class="text-lg font-bold mt-2">Даст материал по темам:</h5>
@@ -21,7 +21,7 @@
         </div>
         <div class="flex flex-col md:flex-row md:flex-1">
           <div class="md:w-1/3 flex justify-center md:justify-start"><img src="~/assets/photos/danilov.png" /></div>
-          <div class="md:w-2/3 flex flex-col mt-6 md:mt-0 items-center md:items-start">
+          <div class="ml-8 text-xl md:w-2/3 flex flex-col mt-6 md:mt-0 items-center md:items-start">
             <h4 class="font-bold text-xl md:text-4xl">Евгений Данилов</h4>
             <p class="text-blacky opacity-50">Карьерное развитие</p>
             <h5 class="text-lg font-bold mt-2 w-2/3 md:w-full">

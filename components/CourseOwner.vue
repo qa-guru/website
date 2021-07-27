@@ -1,12 +1,12 @@
 <template>
   <div class="flex flex-col md:flex-row mt-16 md:mt-32 flex-wrap">
-    <div class="flex-1 owner-lines">
-      <!--<img class="absolute -left-16 md:h-192 z-0" src="~/assets/background/wave2.svg" />-->
-      <img class="h-auto md:h-128 z-10" src="~/assets/photos/vasenkov.png" />
+    <div class="flex-1">
+      <!-- <img class="absolute -left-16 md:h-192 -z-10" src="~/assets/backgrounds/wave2.svg" /> -->
+      <img class="h-auto w-auto z-0 md:h-128" src="~/assets/photos/vasenkov.png" />
     </div>
     <div class="flex flex-col flex-1">
       <h4 class="mt-6 md:mt-0 text-2xl md:text-6xl font-bold leading-none">Станислав Васенков</h4>
-      <p class="mt-8 font-regular">
+      <p class="text-xl mt-8 font-regular">
         Основатель крупнейшего комьюнити по автоматизации @qa_automation
         Основатель крупнейшего комьюнити по автоматизации @qa_automation
         Основатель крупнейшего комьюнити по автоматизации @qa_automation
@@ -52,23 +52,3 @@
     </div>
   </div>
 </template>
-
-<style>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-@apply min-h-screen flex justify-center items-center text-center mx-auto;
-}
-*/
-.owner-lines {
-  background-image: url("assets/lines/owner_desktop.svg");
-  background-repeat: no-repeat;
-  background-position: left top;
-}
-@media screen and (max-width: 640px) {
-  .owner-lines {
-    background-image: url("assets/lines/owner_mobile.svg");
-    background-repeat: no-repeat;
-    background-position: right 150px;
-  }
-}
-</style>
