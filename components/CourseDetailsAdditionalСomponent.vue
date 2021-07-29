@@ -1,6 +1,5 @@
 <template>
   <div>
-   <!-- разбиваем отсюда -->
     <div class="my-8 md:my-16 w-full">
        <div class="flex flex-col md:flex-row md:flex-wrap w-full">
         <div class="flex flex-col md:w-1/2">
@@ -56,17 +55,15 @@
             </p>
           </div>
         </div>
-
       </div>
     </div>
-    <!-- и до сюда -->
   </div>
 </template>
 <script>
 import FrameworkCard from "@/components/ui/FrameworkCard.vue";
 
 export default {
-  name: "CourseDetailsSecond",
+  name: "CourseDetailsAdditionalСomponent",
   components: {
     FrameworkCard
   }

@@ -41,10 +41,10 @@ import CourseOwner from "@/components/CourseOwner.vue";
 import Experts from "@/components/Experts.vue";
 import Specialists from "@/components/Specialists.vue";
 import CourseDetails from "@/components/CourseDetails.vue";
-import CourseDetailsSecond from "@/components/CourseDetailsSecond.vue";
+import CourseDetailsAdditionalСomponent from "@/components/CourseDetailsAdditionalСomponent.vue";
 import Program from "@/components/Program.vue";
 import LearningProcess from "@/components/LearningProcess.vue";
-import LearningProcessSecond from "@/components/LearningProcessSecond.vue";
+import LearningProcessAdditionalСomponent from "@/components/LearningProcessAdditionalСomponent.vue";
 import Tariffs from "@/components/Tariffs.vue";
 import Register from "@/components/Register.vue";
 
@@ -57,10 +57,10 @@ export default Vue.extend({
     Experts,
     Specialists,
     CourseDetails,
-    CourseDetailsSecond,
+    CourseDetailsAdditionalСomponent,
     Program,
     LearningProcess,
-    LearningProcessSecond,
+    LearningProcessAdditionalСomponent,
     Tariffs,
     Register
   }
@@ -85,7 +85,7 @@ export default Vue.extend({
 }
 
 .bg-left-course-owner {
- background-position: 0vw 0vh;
+ background-position: -3vw 4vh;
 }
 
 .bg-left-process-section-offset  {
