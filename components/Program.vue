@@ -17,7 +17,7 @@
         >
           <div class="text-3xl md:text-5xl font-bold">29 марта</div>
           <div class="text-lg md:text-2xl font-bold">1 блок</div>
-          <p class="text-black opacity-25 mt-2 md:mt-0">
+          <p class="text-xl text-black opacity-50 mt-2 md:mt-0">
             Погружаемся в курс, знакомимся с куратором и понимаем, как будет
             проходить обучение.
           </p>
@@ -28,7 +28,7 @@
         >
           <div class="text-3xl md:text-5xl font-bold">3 апреля</div>
           <div class="text-lg md:text-2xl font-bold">2 блок</div>
-          <p class="text-black opacity-25 mt-2 md:mt-0">
+          <p class="text-xl text-black opacity-50 mt-2 md:mt-0">
             Профессионально работаем с IntelliJ IDEA
           </p>
         </div>
@@ -38,7 +38,7 @@
         >
           <div class="text-3xl md:text-5xl font-bold">10 апреля</div>
           <div class="text-lg md:text-2xl font-bold">3 блок</div>
-          <p class="text-black opacity-25 mt-2 md:mt-0">
+          <p class="text-xl text-black opacity-50 mt-2 md:mt-0">
             Погружаемся в инструментарий и библиотеки
           </p>
         </div>
@@ -48,7 +48,7 @@
         >
           <div class="text-3xl md:text-5xl font-bold">22 апреля</div>
           <div class="text-lg md:text-2xl font-bold">4 блок</div>
-          <p class="text-black opacity-25 mt-2 md:mt-0">
+          <p class="text-xl text-black opacity-50 mt-2 md:mt-0">
             Погружаемся в курс, знакомимся с куратором и понимаем, как будет
             проходить обучение.
           </p>

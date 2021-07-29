@@ -1,7 +1,9 @@
 <template>
   <div class="w-full flex justify-between md:justify-start">
 
-    <div class="md:mr-20 text-xl font-bold">ЛОГОТИП</div>
+    <div class="md:mr-20 text-xl font-bold">
+      <div><img class="w-48 md:w-32 lg:w-32 xl:w-32 2x:w-32 mt-1" src="~/assets/icons/logo.svg" width="133" height="31"></div>
+    </div>
     <button class="md:hidden z-20 outline-none focus:outline-none" @click="toggleHeaderNav()"><img :src="getImgUrl()"/></button>
 
     <ul class="md:flex font-bold md:space-x-6" :class="[{ 'border border-black border-solid flex flex-col justify-center text-center absolute left-0 top-0 w-screen h-screen bg-white z-10 text-2xl space-y-6' : toggleHeader === true},  {'hidden': toggleHeader === false}]">
