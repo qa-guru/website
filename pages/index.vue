@@ -15,7 +15,7 @@
       <CourseDetails />
     </div>
     <div class="p-6 md:px-32 bg-no-repeat bg-left" :style="{'background-image': `url(${require('@/assets/backgrounds/wave4.svg')})`}">
-      <CourseDetailsSecond />
+      <CourseDetailsAdditionalСomponent/>
     </div>
 
     <Program />
@@ -23,7 +23,7 @@
       <LearningProcess />
     </div>
        <div class="p-6 md:px-32 bg-no-repeat bg-left-process-section-offset"  :style="{'background-image': `url(${require('@/assets/backgrounds/wave6.svg')})`}" >
-      <LearningProcessSecond />
+      <LearningProcessAdditionalСomponent />
     </div>
       <Tariffs class="w-full" />
     <div class="p-6 md:px-32">
