@@ -58,6 +58,7 @@
         </div>
       </div>
     </div>
+  </div>
 </template>
 <script>
 import FrameworkCard from "@/components/ui/FrameworkCard.vue";
